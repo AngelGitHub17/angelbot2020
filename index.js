@@ -23,7 +23,7 @@ client.on("message", message =>{
     
     //ABhelp
     if(message.content == prefix + "help"){
-        message.channel.send(" Voici les commandes fonctionnels : ABping / ABstat / ABMC / ABhelp / ABIP / ABTest /")
+        message.channel.send(" Voici les commandes fonctionnels : ABping / ABstat / ABMC / ABhelp / ABIP / ABTest / ABNouveau / ABYoutube")
     }
     
     //ABping
@@ -62,6 +62,11 @@ client.on("message", message =>{
         console.log("Un joueur a testé le bot !")
         message.reply(" Merci d'avoir testé le bot !")
     }
+
+     //ABYoutube
+     if(message.content == prefix + "Youtube"){
+        message.channel.send("Voici le lien de la chaine youtube de mon créateur @Didi1802/Karia#3119 : https://www.youtube.com/channel/UCGLmGX4BOGiNvX5DAQcKHug , d'ailleurs, venez voir l'avancement du bot sur ce serveur : https://discord.gg/mp4eNDhvhW !")
+     }
 });
 
 
