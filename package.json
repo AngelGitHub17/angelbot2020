@@ -1,0 +1,14 @@
+{
+  "name": "angelbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Angel",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  },
+  "scripts": {
+    "start": "node index.js" 
+  }
+}
